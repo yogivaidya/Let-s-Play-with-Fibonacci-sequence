@@ -1,15 +1,14 @@
-# Let-s-Play-with-Fibonacci-sequence
-Write a Python program to get the Fibonacci series between 0 to 50
-a,b=0,1
-while b<50:
-    print(b,end=" ")
-    a,b=b, a+b
+What is fibonacci series
+A series of numbers in which each number (Fibonacci number) is the sum of the two preceding numbers is called as the Fibonacci Series.
 
+The Fibonacci numbers can easily obtained by using the following formula:
 
+  Tn = Tn-1 + Tn-2 
+where
 
+Tn = current term.
+Tn-1 = preceeding term.
+Tn-2 = second preceeding term.
+This gives us the following sequence that goes to infinity:
 
-#using for loop
-a,b=0,1
-for i in range(10):
-    print(b,end=" ")
-    a,b=b, a+b
+    1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....
